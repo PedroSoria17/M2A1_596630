@@ -1,0 +1,45 @@
+/* Fondo de la página */
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    text-align: left;   /* Alinea todo a la izquierda */
+    padding: 20px;
+}
+
+/* Títulos */
+h1 {
+    color: darkblue;
+    margin-bottom: 20px;
+    text-align: center; /* Solo el título principal centrado */
+}
+
+h2 {
+    color: navy;
+}
+
+/* Párrafos */
+p {
+    font-size: 18px;   /* Letra más grande */
+    line-height: 1.6;  /* Espaciado entre líneas */
+}
+
+/* Imágenes */
+img {
+    height: 350px;       /* Todas las imágenes tendrán la misma altura */
+    width: auto;         /* Mantiene la proporción */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 10px 0;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    display: block;      /* Para que la imagen respete la alineación izquierda */
+}
+
+/* Enlaces */
+a {
+    color: darkred;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
